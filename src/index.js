@@ -8,5 +8,5 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-  eturn (typeof array == 'undefined') ? 0 : (array.length == 0 ? 0 : array.reduce((s, c) => s + c, 0)/array.length);
+  return (typeof array == 'undefined') ? 0 : (array.length == 0 ? 0 : array.reduce((s, c) => s + c, 0)/array.length);
 }
